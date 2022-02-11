@@ -100,25 +100,14 @@ body{
 
 
 /* seccion imagenes del index*/
-.imagenes{
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    margin-bottom: 10%;
-    
-}
 
-.imagenes ul li{
-    list-style: none;
-    display: inline;
-}
-.imagenes ul li img{
+
+
+/* .carousel-item div img{
     width: 25%;
-    padding: 2px;
     border: none;
-    border-radius: 10%;
-
-}
+    border-radius: 10%; 
+}*/
 
 /*Sección Quienes*/
 
