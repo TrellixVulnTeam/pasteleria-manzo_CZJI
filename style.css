@@ -99,15 +99,6 @@ body{
 }
 
 
-/* seccion imagenes del index*/
-
-
-
-/* .carousel-item div img{
-    width: 25%;
-    border: none;
-    border-radius: 10%; 
-}*/
 
 /*Sección Quienes*/
 
@@ -116,7 +107,7 @@ body{
     border-top: 2px solid var(--subsection);
 }
 
-#quienes{
+/* #quienes{
     display: flex;
     justify-content: flex-start;
     align-content: flex-start;
@@ -127,30 +118,30 @@ body{
 }
 
 #quienes img{
-    width: 10%;
-    align-self: flex-start;
-}
+    width: 100%;
+    align-self: center;
+}*/
 
 .history{
     text-align: justify;
-    display: inline;
-}
+} 
 
 /*seccion de Contacto*/
 
-#contacto{
+/* #contacto{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     flex-direction: row;
     align-content: flex-start;
 
-}
+} */
+
 
 
 #contacto h2{
     size: 2rem;
-    align-self: center;
+    margin-top: 20px;
 }
 
 .shake-bottom {
@@ -184,15 +175,13 @@ body{
   }
 
 #contacto iframe{
-    width: 30%;
-    display:inline;
+    width: 100%;
     border-radius: 10%;
     margin-top: 20px;
     
 }
 
 #contacto .where{
-    display: inline;
     text-align: justify;
 }
 
