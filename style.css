@@ -257,10 +257,9 @@ body{
 }
 
 .kandy a img{
-    width: 20%;
-    padding: 2px;
-    border: 1px solid var(--subsection);
-    display: inline;
+    width: 100%;
+    border-radius: 20%;
+   
 }
 
 .kandy p{
