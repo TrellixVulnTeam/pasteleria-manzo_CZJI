@@ -220,16 +220,13 @@ body{
     size: var(--titles);
 }
 
-.store{
+/* .store{
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    
-}
+    justify-content: space-around;   
+} */
 
 .store a img{
-    width: 30%;
+    width: 100%;
     border-radius: 10%;
 }
 
