@@ -405,17 +405,12 @@ footer{
     }
 
     /*cambios en la galeria de fotos*/
-    .gallery .image-container img {
-        width: 45%;
-        padding: 0px;
-        border-radius: 10%;
-        margin: 5%;
-    }
+   
      
-    .gallery img:hover {
+    .gallery .row .col .photo:hover {
         transform: none;
         transition: none;
-        border-radius: none;
+        border-radius: 10%;
         
     }
     
@@ -469,14 +464,8 @@ footer{
         color:#d87093;
     }
     /*cambios en la galeria de fotos*/
-    .gallery .image-container img {
-        width: 45%;
-        padding: 0px;
-        border-radius: 10%;
-        margin: 5%;
-    }
-     
-    .gallery img:hover {
+         
+    .gallery .row .col .thumnail:hover {
         transform: none;
         transition: none;
         border-radius: none;
