@@ -1,0 +1,16 @@
+@import "components/contacto";
+@import "components/footer";
+@import "components/galery";
+@import "components/header";
+@import "components/pedidos";
+@import "components/quienes";
+@import "base/colors";
+@import "base/lists";
+@import "base/maps";
+@import "base/variables";
+@import "components/tienda";
+
+body {
+	background-color: $color-body;
+    font-family: 'Roboto Slab', serif;
+}

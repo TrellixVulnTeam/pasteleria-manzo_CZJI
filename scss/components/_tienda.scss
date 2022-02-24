@@ -1,0 +1,59 @@
+/*Tienda*/
+/*Seccion Tortas*/
+/*Seccion Mesas de Dulce*/
+/*Seccion Ocaciones Especiales*/
+.store{
+	@extend %formato-body;
+}
+.store {
+	h1 {
+		size: 18px;
+	}
+	a {
+		img {
+			width: 100%;
+			border-radius: 10%;
+		}
+	}
+}
+.products {
+	text-decoration: none;
+	color: $image-text;
+}
+.cakes {
+	h1 {
+		size: 18px;
+	}
+	a {
+		img {
+			width: 100%;
+			border-radius: 20%;
+		}
+	}
+	p {
+		text-decoration: none;
+		color: $image-text;
+	}
+}
+.kandy {
+	h1 {
+		size: 18px;
+	}
+	a {
+		img {
+			width: 100%;
+			border-radius: 20%;
+		}
+	}
+}
+.especial {
+	h1 {
+		size: 18px;
+	}
+	a {
+		img {
+			width: 100%;
+			border-radius: 20%;
+		}
+	}
+}

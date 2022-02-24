@@ -1,0 +1,473 @@
+/* afectan a todo el proyecto*/
+:root{
+    /*colores*/
+    --border: 2.5px solid black;
+    --body: #fcdec2;
+    --header: #ff6363;
+    --sections: #ffab76;
+    --subsection: #ff6363;
+    --menus: #baffb4;
+    --image-text: rgb(255, 0, 179);
+
+    /*Textos*/
+    --textcolor: black;
+    --textsize: 18px;
+    --titles: 75%;
+
+    /*margenes*/
+    --marginnavbar: 2px 20px 2px 20px;
+    --marginimg: 3px;
+    --paddingimg: 2px
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+    
+/*header*/
+.header{
+    background-color: var(--header);
+    width: 100%;
+
+}
+
+.header a img{
+    width: 100%;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+}
+
+header nav ul li{
+    display: flex;
+    font-size: var(--textsize);
+    
+}
+
+/*botones del header*/
+button {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    color: #f08080;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+   }
+   
+   button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+   }
+   
+   button:hover:not(:disabled) {
+    background: #f08080;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+   }
+   
+   button:disabled {
+    cursor: auto;
+    color: grey;
+   }
+
+.header nav ul li a{
+    text-decoration: none;
+    color:#d87093;
+}
+
+.header nav ul li a:hover{
+    color: whitesmoke;
+}
+
+
+
+/*elementos del body*/
+
+body{
+    background-color: var(--body);
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+/*Sección Quienes*/
+
+#quienes{
+    margin-top: 40px;
+    border-top: 2px solid var(--subsection);
+}
+
+/* #quienes{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+#quienes h1{
+    size: var(--titles);
+}
+
+#quienes img{
+    width: 100%;
+    align-self: center;
+}*/
+
+.history{
+    text-align: justify;
+} 
+
+/*seccion de Contacto*/
+
+/* #contacto{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+
+} */
+
+
+
+#contacto h2{
+    size: 2rem;
+    margin-top: 20px;
+}
+
+.shake-bottom {
+	animation: shake-bottom 1.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+@keyframes shake-bottom {
+    0%,
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 50% 100%;
+    }
+    10% {
+      transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+      transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      transform: rotate(4deg);
+    }
+    80% {
+      transform: rotate(-2deg);
+    }
+    90% {
+      transform: rotate(2deg);
+    }
+  }
+
+#contacto iframe{
+    width: 100%;
+    border-radius: 10%;
+    margin-top: 20px;
+    
+}
+
+#contacto .where{
+    text-align: justify;
+}
+
+#contacto ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+
+#contacto ul li a i img{
+    width: 1cm;
+    display: block;
+}
+
+#contacto ul li{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+#contacto ul li p{
+    list-style: none;
+}
+
+#contacto{
+    margin-top: 40px;
+    border-top: 2px solid var(--subsection);
+}
+
+/*Tienda*/
+
+.store h1{
+    size: var(--titles);
+}
+
+.store a img{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.products{
+    text-decoration: none;
+    color: var(--image-text);
+}
+
+/*Seccion Tortas*/
+
+.cakes h1{
+    size: var(--titles);
+}
+
+.cakes a img{
+    width: 100%;
+    border-radius: 20%;
+}
+
+.cakes p{
+    text-decoration: none;
+    color:var(--image-text);
+}
+
+/*Seccion Mesas de Dulce*/
+.kandy h1{
+    size: var(--titles);
+}
+
+.kandy a img{
+    width: 100%;
+    border-radius: 20%;
+   
+}
+
+/*Seccion Ocaciones Especiales*/
+
+.especial h1{
+    size: var(--titles);
+}
+
+.especial a img{
+    width: 100%;
+    border-radius: 20%;
+    
+}
+
+
+
+/*Seccion Galeria de Imagenes*/
+
+
+.gallery h1{
+    size: var(--titles);
+}
+
+.gallery .row .col img{
+    border-radius: 80%;
+    width: 100%;
+}
+ 
+.gallery .row .col img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    border-radius: 20%;    
+}
+
+
+/*Seccion de Pedidos*/
+
+.request form h1{
+    size: var(--titles);
+}
+
+.request form .name{
+    display: block;
+}
+
+.request form .e_mail{
+    display: block;
+}
+
+.request form .phone{
+    display: block;
+}
+
+.request form .text_area{
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+
+/*footer*/
+footer{
+    margin-top: 40px;
+    border-top: 2px solid var(--subsection);
+}
+footer a i img{
+    width: 1cm;
+}
+
+.developer{
+    text-align: center;
+
+}
+
+.creation_date{
+    text-align: center;
+}
+
+.footer_icons{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+footer{
+    background-image: linear-gradient(to bottom , #fcdec2 , #ff6363);
+}
+
+
+
+/* medidas query */
+
+/*CELULAR*/
+@media screen and (max-width: 480px) {
+    /*cambios en header y textos*/
+    .header{
+        background-color: var(--header);
+        width: 100%;
+    
+    }
+    
+    .header a img{
+        width: 100%;
+    }
+    
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    header nav ul li{
+        display: flex;
+        font-size: 12px;
+        
+    }
+    
+    /*cambios en botones del header*/
+    button {
+        background-color: #eee;
+        border: none;
+        padding: 0.25rem;
+        font-size: 0.75rem;
+        border-radius: 0.75rem;
+        margin: 0.75rem;
+        color: #f08080;
+        box-shadow: 0 0.2rem #dfd9d9;
+        cursor: pointer;
+       }
+       
+       
+    
+    .header nav ul li a{
+        text-decoration: none;
+        color:#d87093;
+    }
+
+    /*cambios en la galeria de fotos*/
+   
+     
+    .gallery .row .col .photo:hover {
+        transform: none;
+        transition: none;
+        border-radius: 10%;
+        
+    }
+    
+    
+
+} 
+
+/*TABLET*/
+@media screen and (min-width: 481px) and (max-width:980px) {
+    /*cambios en header y textos*/
+    .header{
+        background-color: var(--header);
+        width: 100%;
+    
+    }
+    
+    .header a img{
+        width: 100%;
+    }
+    
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+    
+    }
+    
+    header nav ul li{
+        display: flex;
+        font-size: 12px;
+        
+    }
+    
+    /*cambios en botones del header*/
+    button {
+        background-color: #eee;
+        border: none;
+        padding: 0.25rem;
+        font-size: 0.75rem;
+        border-radius: 0.75rem;
+        margin: 0.75rem;
+        color: #f08080;
+        box-shadow: 0 0.2rem #dfd9d9;
+        cursor: pointer;
+       }
+       
+    .header nav ul li a{
+        text-decoration: none;
+        color:#d87093;
+    }
+    /*cambios en la galeria de fotos*/
+         
+    .gallery .row .col .thumnail:hover {
+        transform: none;
+        transition: none;
+        border-radius: none;
+        
+    }
+
+
+
+} 
+
+/*DESKTOP*/
+@media screen and (min-width: 981px){
+
+}

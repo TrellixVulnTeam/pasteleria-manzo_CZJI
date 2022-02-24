@@ -1,0 +1,31 @@
+@import "../base/colors";
+@import "../base/lists";
+@import "../base/maps";
+@import "../base/variables";
+@import "../base/extends";
+
+/*footer*/
+footer {
+	margin-top: 40px;
+	border-top: 2px solid $color-subsections;
+	background-image: linear-gradient(to bottom , #fcdec2 , #ff6363);
+	a {
+		i {
+			img {
+				width: 1cm;
+			}
+		}
+	}
+}
+.developer {
+	text-align: center;
+}
+.creation_date {
+	text-align: center;
+}
+.footer_icons {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+

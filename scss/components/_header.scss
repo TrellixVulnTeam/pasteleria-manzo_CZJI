@@ -1,0 +1,71 @@
+@import "../base/colors";
+@import "../base/lists";
+@import "../base/maps";
+@import "../base/variables";
+@import "../base/extends";
+
+
+/*botones del header*/
+.header {
+	background-color: $color-header;
+	width: 100%;
+	a {
+		img {
+			width: 100%;
+		}
+	}
+	nav {
+		ul {
+			li {
+				a {
+					text-decoration: none;
+					color: #d87093;
+					&:hover {
+						color: whitesmoke;
+					}
+				}
+			}
+		}
+	}
+}
+header {
+	nav {
+		ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			flex-wrap: wrap;
+			li {
+				display: flex;
+				font-size: 18px;
+			}
+		}
+	}
+}
+button {
+	background-color: #eee;
+	border: none;
+	padding: 1rem;
+	font-size: 1rem;
+	border-radius: 1rem;
+	color: #f08080;
+	box-shadow: 0 0.4rem #dfd9d9;
+	cursor: pointer;
+	&:active {
+		color: white;
+		box-shadow: 0 0.2rem #dfd9d9;
+		transform: translateY(0.2rem);
+	}
+	&:hover {
+		&:not(:disabled) {
+			background: #f08080;
+			color: white;
+			text-shadow: 0 0.1rem #bcb4b4;
+		}
+	}
+	&:disabled {
+		cursor: auto;
+		color: grey;
+	}
+}
+

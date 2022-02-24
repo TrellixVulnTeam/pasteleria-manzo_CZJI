@@ -1,0 +1,27 @@
+@import "../base/colors";
+@import "../base/lists";
+@import "../base/maps";
+@import "../base/variables";
+@import "../base/extends";
+
+/*Seccion Galeria de Imagenes*/
+/*Seccion de Pedidos*/
+.gallery {
+	h1 {
+		size: 18px;
+	}
+	.row {
+		.col {
+			img {
+				border-radius: 80%;
+				width: 100%;
+				&:hover {
+					transform: scale(1.1);
+					transition: 1s;
+					border-radius: 20%;
+				}
+			}
+		}
+	}
+}
+

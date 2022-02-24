@@ -1,0 +1,28 @@
+@import "../base/colors";
+@import "../base/lists";
+@import "../base/maps";
+@import "../base/variables";
+
+/*Seccion de Pedidos*/
+.request {
+	form {
+		h1 {
+			size: var(--titles);
+		}
+		.name {
+			display: block;
+		}
+		.e_mail {
+			display: block;
+		}
+		.phone {
+			display: block;
+		}
+		.text_area {
+			display: block;
+			width: 100%;
+			height: 300px;
+		}
+	}
+}
+

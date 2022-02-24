@@ -1,0 +1,226 @@
+.store, #quienes #contacto {
+  background-color: #fcdec2;
+  font-family: "Roboto Slab", serif;
+}
+
+.store, #quienes #contacto {
+  background-color: #fcdec2;
+  font-family: "Roboto Slab", serif;
+}
+
+/*footer*/
+footer {
+  margin-top: 40px;
+  border-top: 2px solid #ff6363;
+  background-image: linear-gradient(to bottom, #fcdec2, #ff6363);
+}
+footer a i img {
+  width: 1cm;
+}
+
+.developer {
+  text-align: center;
+}
+
+.creation_date {
+  text-align: center;
+}
+
+.footer_icons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.store, #quienes #contacto {
+  background-color: #fcdec2;
+  font-family: "Roboto Slab", serif;
+}
+
+/*Seccion Galeria de Imagenes*/
+/*Seccion de Pedidos*/
+.gallery h1 {
+  size: 18px;
+}
+.gallery .row .col img {
+  border-radius: 80%;
+  width: 100%;
+}
+.gallery .row .col img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  border-radius: 20%;
+}
+
+.store, #quienes #contacto {
+  background-color: #fcdec2;
+  font-family: "Roboto Slab", serif;
+}
+
+/*botones del header*/
+.header {
+  background-color: #ff6363;
+  width: 100%;
+}
+.header a img {
+  width: 100%;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: #d87093;
+}
+.header nav ul li a:hover {
+  color: whitesmoke;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+header nav ul li {
+  display: flex;
+  font-size: 18px;
+}
+
+button {
+  background-color: #eee;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  color: #f08080;
+  box-shadow: 0 0.4rem #dfd9d9;
+  cursor: pointer;
+}
+button:active {
+  color: white;
+  box-shadow: 0 0.2rem #dfd9d9;
+  transform: translateY(0.2rem);
+}
+button:hover:not(:disabled) {
+  background: #f08080;
+  color: white;
+  text-shadow: 0 0.1rem #bcb4b4;
+}
+button:disabled {
+  cursor: auto;
+  color: grey;
+}
+
+/*Seccion de Pedidos*/
+.request form h1 {
+  size: var(--titles);
+}
+.request form .name {
+  display: block;
+}
+.request form .e_mail {
+  display: block;
+}
+.request form .phone {
+  display: block;
+}
+.request form .text_area {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
+/*Seccion Quienes del Index*/
+#quienes {
+  margin-top: 40px;
+  border-top: 2px solid #ff6363;
+}
+
+.history {
+  text-align: justify;
+}
+
+#contacto h2 {
+  size: 2rem;
+  margin-top: 20px;
+}
+
+#contacto {
+  margin-top: 40px;
+  border-top: 2px solid #ff6363;
+}
+#contacto iframe {
+  width: 100%;
+  border-radius: 10%;
+  margin-top: 20px;
+}
+#contacto .where {
+  text-align: justify;
+}
+#contacto ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#contacto ul li {
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+}
+#contacto ul li a i img {
+  width: 1cm;
+  display: block;
+}
+#contacto ul li p {
+  list-style: none;
+}
+
+/*Tienda*/
+/*Seccion Tortas*/
+/*Seccion Mesas de Dulce*/
+/*Seccion Ocaciones Especiales*/
+.store h1 {
+  size: 18px;
+}
+.store a img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.products {
+  text-decoration: none;
+  color: #ff00b3;
+}
+
+.cakes h1 {
+  size: 18px;
+}
+.cakes a img {
+  width: 100%;
+  border-radius: 20%;
+}
+.cakes p {
+  text-decoration: none;
+  color: #ff00b3;
+}
+
+.kandy h1 {
+  size: 18px;
+}
+.kandy a img {
+  width: 100%;
+  border-radius: 20%;
+}
+
+.especial h1 {
+  size: 18px;
+}
+.especial a img {
+  width: 100%;
+  border-radius: 20%;
+}
+
+body {
+  background-color: #fcdec2;
+  font-family: "Roboto Slab", serif;
+}
+
+/*# sourceMappingURL=style.css.map */
