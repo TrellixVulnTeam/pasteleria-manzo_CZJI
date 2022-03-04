@@ -52,6 +52,24 @@ body, .store, #quienes #contacto {
   border-radius: 20%;
 }
 
+/* medidas query */
+/*CELULAR*/
+/*cambios en la galeria de fotos*/
+/*TABLET*/
+/*cambios en la galeria de fotos*/
+@media screen and (max-width: 480px) {
+  .gallery .row .col .photo:hover {
+    transform: none;
+    transition: 2s;
+    border-radius: 10%;
+  }
+}
+.gallery .row .col .thumnail:hover {
+  transform: none;
+  transition: 2s;
+  border-radius: 10%;
+}
+
 body, .store, #quienes #contacto {
   background-color: #fcdec2;
   font-family: "Roboto Slab", serif;
@@ -109,6 +127,89 @@ button:disabled {
   color: grey;
 }
 
+.container-fluid {
+  width: 75%;
+}
+
+/* medidas query */
+/*CELULAR*/
+/*cambios en header y textos*/
+/*cambios en botones del header*/
+/*TABLET*/
+/*cambios en header y textos*/
+/*cambios en botones del header*/
+@media screen and (max-width: 480px) {
+  .header {
+    background-color: #ff6363;
+    width: 100%;
+  }
+  .header a img {
+    width: 100%;
+  }
+  .header nav ul li a {
+    text-decoration: none;
+    color: #d87093;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  header nav ul li {
+    display: flex;
+    font-size: 12px;
+  }
+
+  button {
+    background-color: #eee;
+    border: none;
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem;
+    color: #f08080;
+    box-shadow: 0 0.2rem #dfd9d9;
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .header {
+    background-color: #ff6363;
+    width: 100%;
+  }
+  .header a img {
+    width: 100%;
+  }
+  .header nav ul li a {
+    text-decoration: none;
+    color: #d87093;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  header nav ul li {
+    display: flex;
+    font-size: 12px;
+  }
+
+  button {
+    background-color: #eee;
+    border: none;
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem;
+    color: #f08080;
+    box-shadow: 0 0.2rem #dfd9d9;
+    cursor: pointer;
+  }
+}
 /*Seccion de Pedidos*/
 .request form h1 {
   size: var(--titles);
