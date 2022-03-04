@@ -9,8 +9,9 @@
 @import "base/maps";
 @import "base/variables";
 @import "components/tienda";
+@import "base/mixins";
+@import "base/extends";
 
-body {
-	background-color: $color-body;
-    font-family: 'Roboto Slab', serif;
+body{
+    @extend %formato-body
 }

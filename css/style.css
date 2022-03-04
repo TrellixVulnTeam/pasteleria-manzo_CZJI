@@ -1,9 +1,9 @@
-.store, #quienes #contacto {
+body, .store, #quienes #contacto {
   background-color: #fcdec2;
   font-family: "Roboto Slab", serif;
 }
 
-.store, #quienes #contacto {
+body, .store, #quienes #contacto {
   background-color: #fcdec2;
   font-family: "Roboto Slab", serif;
 }
@@ -32,7 +32,7 @@ footer a i img {
   justify-content: flex-end;
 }
 
-.store, #quienes #contacto {
+body, .store, #quienes #contacto {
   background-color: #fcdec2;
   font-family: "Roboto Slab", serif;
 }
@@ -52,7 +52,7 @@ footer a i img {
   border-radius: 20%;
 }
 
-.store, #quienes #contacto {
+body, .store, #quienes #contacto {
   background-color: #fcdec2;
   font-family: "Roboto Slab", serif;
 }
@@ -218,7 +218,7 @@ button:disabled {
   border-radius: 20%;
 }
 
-body {
+body, #quienes #contacto, .store {
   background-color: #fcdec2;
   font-family: "Roboto Slab", serif;
 }
