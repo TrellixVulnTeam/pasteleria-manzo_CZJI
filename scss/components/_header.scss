@@ -46,7 +46,7 @@ button {
 	background-color: #eee;
 	border: none;
 	padding: 1rem;
-	font-size: 1rem;
+	font-size: 2rem;
 	border-radius: 1rem;
 	color: #f08080;
 	box-shadow: 0 0.4rem #dfd9d9;
@@ -104,9 +104,10 @@ button {
 		nav {
 			ul {
 				display: flex;
-				flex-direction: row;
+				flex-direction: column;
 				justify-content: space-around;
 				flex-wrap: wrap;
+				align-items: center;
 				li {
 					display: flex;
 					font-size: 12px;
@@ -118,7 +119,7 @@ button {
 		background-color: #eee;
 		border: none;
 		padding: 0.25rem;
-		font-size: 0.75rem;
+		font-size: 1rem;
 		border-radius: 0.75rem;
 		margin: 0.75rem;
 		color: #f08080;

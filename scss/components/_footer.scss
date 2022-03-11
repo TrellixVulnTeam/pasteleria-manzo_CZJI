@@ -8,7 +8,7 @@
 footer {
 	margin-top: 40px;
 	border-top: 2px solid $color-subsections;
-	background-image: linear-gradient(to bottom , #fcdec2 , #ff6363);
+	
 	a {
 		i {
 			img {
@@ -27,5 +27,6 @@ footer {
 	display: flex;
 	align-items: flex-end;
 	justify-content: flex-end;
+	padding: 2rem;
 }
 

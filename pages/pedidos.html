@@ -54,14 +54,16 @@
 
 <!--comienzo de secc pedidos-->
 <section class="request">
-<form action="">
-    <h1><strong>HAS TU PEDIDO!</strong></h1>
-    <input type="text" name="nombre" placeholder="Nombre" class="name">
-    <input type="text" name="correo" placeholder="Correo" class="e_mail">
-    <input type="text" name="telefono" placeholder="Telefono" class="phone">
-    <textarea name="Mensaje" placeholder="Escriba aqui su mensaje" class="text_area"></textarea>
-    <input type="button" value="ENVIAR" id="botonenviar"> 
-</form>
+    <section>
+        <form class="container" action="mailto:dulcerialapaulina@gmail.com" method="post" enctype="text/plain">
+            <h1 class="row justify-content-center"><strong>HAS TU PEDIDO!</strong></h1>
+            <input type="text" name="nombre" placeholder="Nombre" class="name row justify-content-center">
+            <input type="text" name="correo" placeholder="Correo" class="e_mail row justify-content-center">
+            <input type="text" name="telefono" placeholder="Telefono" class="phone row justify-content-center">
+            <textarea name="Mensaje" placeholder="Escriba aqui su mensaje" class="text_area row justify-content-center"></textarea>
+            <input class="row justify-content-center enviar" type="submit" value="ENVIAR" id="botonenviar"> 
+        </form>
+    </section>
 </section>
 <!--fin de secc pedidos-->
 

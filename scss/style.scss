@@ -15,3 +15,15 @@
 body{
     @extend %formato-body
 }
+
+.carousel-control-prev {
+    width: 4rem;
+}
+
+.carousel-control-next{
+    width: 4rem;
+}
+
+.carousel-item img{
+    border-radius: 10%;
+}
