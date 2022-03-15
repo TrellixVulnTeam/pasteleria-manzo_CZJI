@@ -40,7 +40,8 @@ body, .store, #quienes #contacto {
 /*Seccion Galeria de Imagenes*/
 /*Seccion de Pedidos*/
 .gallery h1 {
-  size: 18px;
+  size: 1.125rem;
+  margin: 4rem;
 }
 .gallery .row .col img {
   border-radius: 80%;
@@ -76,6 +77,10 @@ body, .store, #quienes #contacto {
 }
 
 /*botones del header*/
+.header {
+  margin-bottom: 4rem;
+}
+
 .header {
   background-color: #ff6363;
   width: 100%;
@@ -320,7 +325,8 @@ button:disabled {
 /*Seccion Mesas de Dulce*/
 /*Seccion Ocaciones Especiales*/
 .store h1 {
-  size: 18px;
+  size: 1.125rem;
+  margin: 4rem;
 }
 .store a img {
   width: 100%;
@@ -333,7 +339,8 @@ button:disabled {
 }
 
 .cakes h1 {
-  size: 18px;
+  size: 1.125rem;
+  margin: 4rem;
 }
 .cakes a img {
   width: 100%;
@@ -345,7 +352,8 @@ button:disabled {
 }
 
 .kandy h1 {
-  size: 18px;
+  size: 1.125rem;
+  margin: 4rem;
 }
 .kandy a img {
   width: 100%;
@@ -353,7 +361,8 @@ button:disabled {
 }
 
 .especial h1 {
-  size: 18px;
+  size: 1.125rem;
+  margin: 4rem;
 }
 .especial a img {
   width: 100%;
