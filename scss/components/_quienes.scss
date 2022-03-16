@@ -3,10 +3,6 @@
 @import "../base/maps";
 @import "../base/variables";
 /*Seccion Quienes del Index*/
-#quienes #contacto{
-	@extend %formato-body;
-}
-
 #quienes {
 	margin-top: 40px;
 	border-top: 2px solid $color-subsections;
@@ -18,9 +14,6 @@
     size: 2rem;
     margin-top: 20px;
 }
-
-
-
 
 #contacto {
 	iframe {
