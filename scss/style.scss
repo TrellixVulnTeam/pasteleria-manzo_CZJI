@@ -67,6 +67,9 @@ body{
 }
 /*CELULAR*/
 @media screen and (max-width: 480px) {
+  .logo_header{
+    display: none;
+  }
   #fotos_animadas{
     display: none;
   }
@@ -75,7 +78,6 @@ body{
   }
 
 }
-
  
 /*TABLET*/
 @media screen and (min-width: 481px) and (max-width:980px) {

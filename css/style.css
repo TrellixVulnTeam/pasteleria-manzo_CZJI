@@ -577,6 +577,10 @@ body {
 /*DESKTOP*/
 /*CELULAR*/
 @media screen and (max-width: 480px) {
+  .logo_header {
+    display: none;
+  }
+
   #fotos_animadas {
     display: none;
   }
