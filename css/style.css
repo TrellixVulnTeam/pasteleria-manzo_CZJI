@@ -449,8 +449,11 @@ header .logo_header .row .col-12 {
   margin: 4rem;
 }
 .store a img {
-  width: 100%;
+  width: 80%;
   border-radius: 10%;
+}
+.store p {
+  margin-top: 4rem;
 }
 
 .products {
@@ -463,12 +466,21 @@ header .logo_header .row .col-12 {
   margin: 4rem;
 }
 .cakes a img {
-  width: 100%;
+  width: 90%;
+  border-radius: 20%;
+  margin-top: 4rem;
+}
+.cakes a img:hover {
+  transform: scale(1.1);
+  transition: 2s;
   border-radius: 20%;
 }
 .cakes p {
   text-decoration: none;
   color: #ff00b3;
+  margin-top: 4rem;
+  size: 1.125rem;
+  font-weight: bold;
 }
 
 .kandy h1 {
@@ -476,8 +488,21 @@ header .logo_header .row .col-12 {
   margin: 4rem;
 }
 .kandy a img {
-  width: 100%;
+  width: 90%;
   border-radius: 20%;
+  margin-top: 4rem;
+}
+.kandy a img:hover {
+  transform: scale(1.1);
+  transition: 2s;
+  border-radius: 20%;
+}
+.kandy p {
+  text-decoration: none;
+  color: #ff00b3;
+  margin-top: 4rem;
+  size: 1.125rem;
+  font-weight: bold;
 }
 
 .especial h1 {
@@ -485,8 +510,21 @@ header .logo_header .row .col-12 {
   margin: 4rem;
 }
 .especial a img {
-  width: 100%;
+  width: 90%;
   border-radius: 20%;
+  margin-top: 4rem;
+}
+.especial a img:hover {
+  transform: scale(1.1);
+  transition: 2s;
+  border-radius: 20%;
+}
+.especial p {
+  text-decoration: none;
+  color: #ff00b3;
+  margin-top: 4rem;
+  size: 1.125rem;
+  font-weight: bold;
 }
 
 body {

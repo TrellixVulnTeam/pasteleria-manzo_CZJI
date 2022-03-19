@@ -10,11 +10,18 @@
 	}
 	a {
 		img {
-			width: 100%;
+			width: 80%;
 			border-radius: 10%;
+			
+			
 		}
 	}
+	p{
+		margin-top: 4rem;
+	}
+
 }
+
 .products {
 	text-decoration: none;
 	color: $image-text;
@@ -26,13 +33,21 @@
 	}
 	a {
 		img {
-			width: 100%;
+			width: 90%;
 			border-radius: 20%;
+			margin-top: 4rem;
+			&:hover {
+				transform: scale(1.1);
+				transition: 2s;
+				border-radius: 20%;}
 		}
 	}
 	p {
 		text-decoration: none;
 		color: $image-text;
+		margin-top: 4rem;
+		size: 1.125rem;
+		font-weight: bold;
 	}
 }
 .kandy {
@@ -42,9 +57,21 @@
 	}
 	a {
 		img {
-			width: 100%;
+			width: 90%;
 			border-radius: 20%;
+			margin-top: 4rem;
+			&:hover {
+				transform: scale(1.1);
+				transition: 2s;
+				border-radius: 20%;}
 		}
+	}
+	p {
+		text-decoration: none;
+		color: $image-text;
+		margin-top: 4rem;
+		size: 1.125rem;
+		font-weight: bold;
 	}
 }
 .especial {
@@ -54,8 +81,20 @@
 	}
 	a {
 		img {
-			width: 100%;
+			width: 90%;
 			border-radius: 20%;
+			margin-top: 4rem;
+			&:hover {
+				transform: scale(1.1);
+				transition: 2s;
+				border-radius: 20%;}
 		}
+	}
+	p {
+		text-decoration: none;
+		color: $image-text;
+		margin-top: 4rem;
+		size: 1.125rem;
+		font-weight: bold;
 	}
 }
