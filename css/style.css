@@ -558,6 +558,7 @@ body {
 
 .box > span {
   font-size: 1.5rem;
+  font-weight: bold;
   display: block;
   text-align: center;
   height: 10vh;
@@ -571,6 +572,29 @@ body {
 .box:hover > img {
   width: 100%;
   height: 100%;
+}
+
+/*DESKTOP*/
+/*CELULAR*/
+@media screen and (max-width: 480px) {
+  #fotos_animadas {
+    display: none;
+  }
+
+  #fotos_animadas2 {
+    display: none;
+  }
+}
+/*TABLET*/
+@media screen and (min-width: 481px) and (max-width: 980px) {
+  .box > span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

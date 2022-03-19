@@ -44,6 +44,7 @@ body{
   
   .box > span {
     font-size: 1.5rem;
+    font-weight: bold;
     display: block;
     text-align: center;
     height: 10vh;
@@ -57,3 +58,34 @@ body{
   }
 
   //fin de la sección de fotos del index
+
+  //media queries
+
+/*DESKTOP*/
+@media screen and (min-width: 981px){
+
+}
+/*CELULAR*/
+@media screen and (max-width: 480px) {
+  #fotos_animadas{
+    display: none;
+  }
+  #fotos_animadas2{
+    display: none;
+  }
+
+}
+
+ 
+/*TABLET*/
+@media screen and (min-width: 481px) and (max-width:980px) {
+  .box > span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+  }
+  
+}
