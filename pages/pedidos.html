@@ -36,19 +36,59 @@
 
 
 <!--Inicio del Header-->
-<header class="header">
-    <a href="../index.html">
-        <img src="../images/logo.png" alt="logo de la empresa para el header" class="img-header">
-    </a>
-    <nav>
-        <ul class="lista-header">
-            <li><button><a href="../index.html#quines">Quienes Somos</a></button></li>
-            <li><button><a href="tienda.html">Tienda</a></button></li>
-            <li><button><a href="galeria.html">Galeria de Imagenes</a></button></li>
-            <li><button><a href="../index.html#contacto">Contacto</a></button></li>
-            <li><button><a href="pedidos.html">Has tu Pedido!</a></button></li>
+<header>
+    <div class="logo_header container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <a href="../index.html">
+                    <img class="logo_pedidos" src="../images/logo_chico.png" alt="logo de la Pastelería LA PAULINA">
+                </a>
+            </div>
+        </div>
+    </div>
+    <input type="checkbox" id="burger-toggle">
+    <label for="burger-toggle" class="burger-menu">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+    </label>
+    <div class="menu">
+    <div class="menu-inner">
+        <ul class="menu-nav">
+            <li class="menu-nav-item"><a class="menu-nav-link" href="../index.html"><span>
+                    <div>Home</div>
+                </span></a></li>
+            <li class="menu-nav-item"><a class="menu-nav-link" href="galeria.html" ><span>
+                    <div>Galeria</div>
+                </span></a></li>
+            <li class="menu-nav-item"><a class="menu-nav-link" href="../index.html#quienes" target="_blank"><span>
+                    <div>Nosotros</div>
+                </span></a></li>
+            <li class="menu-nav-item"><a class="menu-nav-link" href="../index.html#contacto" target="_blank"><span>
+                    <div>Contacto</div>
+                </span></a></li>
+            <li class="menu-nav-item"><a class="menu-nav-link" href="pedidos.html"><span>
+                <div>Haz Tu Pedido</div>
+            </span></a></li>
         </ul>
-    </nav>
+        <div class="gallery">
+        <div class="title">
+            <p>NUESTROS PRODUCTOS</p>
+        </div>
+        <div class="images">
+            <a class="image-link" href="tortas.html">
+            <div class="image" data-label="Tortas"><img src="../images/tortas/lemonpie.png" alt="Delicioso Lemon Pie"></div>
+            </a>
+            <a class="image-link" href="ocasion_esp.html">
+            <div class="image" data-label="Ocaciones Especiales"><img src="../images/ocasiones_esp/desayuno.png" alt="Delicioso desayuno de regalo"></div>
+            </a>
+            <a class="image-link" href="mesa_de_dulce.html">
+            <div class="image" data-label="Mesas de Dulces"><img src="../images/mesa_dulce/mesadedulces.png" alt="Mesa de Dulces con el motivo de la granja de Zenon, torta, galletas, cupcakes y popcakes"></div>
+            </a>
+        </div>
+        </div>
+    </div>
+    </div>
 </header>
 <!--Fin del Header-->
 
