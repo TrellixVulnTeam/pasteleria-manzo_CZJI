@@ -14,11 +14,11 @@
 	.row {
 		.col {
 			img {
-				border-radius: 80%;
+				border-radius: 18%;
 				width: 100%;
 				&:hover {
 					transform: scale(1.1);
-					transition: 1s;
+					transition: 2s;
 					border-radius: 20%;
 				}
 			}
