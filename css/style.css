@@ -600,5 +600,8 @@ body {
     line-height: 2.6;
   }
 }
+.disclaimer {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
