@@ -211,7 +211,7 @@ p {
   visibility: hidden;
   transition: 0.3s;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .menu {
     display: block;
   }
@@ -224,7 +224,7 @@ p {
   text-align: center;
   list-style-type: none;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .menu-nav {
     flex-direction: column;
   }
@@ -281,7 +281,7 @@ p {
   display: flex;
   flex-wrap: wrap;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .menu .images {
     justify-content: center;
   }
@@ -291,7 +291,7 @@ p {
   margin: 0 12px;
   overflow: hidden;
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .menu .images .image-link {
     width: 40vw;
     margin: 0 12px 12px 0;
